@@ -42,3 +42,4 @@ app.MapPost("/api/products", async (Product product, AppDbContext db) =>
 }).WithName("CreateProduct");
 
 app.Run();
+public partial class Program { }
